@@ -1,0 +1,218 @@
+/*   #272a31 black
+     #ec5242 red
+     #d3d3d3 gray */
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Lato;
+  src: url('assets/fonts/Lato-Light.ttf');
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.main-header {
+  position: absolute;
+}
+
+.nav-branding {
+  visibility: hidden;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #57000d;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+}
+
+.hamburger {
+  display: block;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  bottom: 0;
+  gap: 0;
+  flex-direction: column;
+  opacity: calc(90%);
+  text-align: left;
+  width: 100%;
+  transition: 0.3s;
+  background-color: #ec5242;
+  padding-top: 90px;
+}
+
+.nav-item {
+  margin: 40px 28px 0 28px;
+  font-size: 32px;
+  color: #ec5242;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.get {
+  border: 5px solid #fff;
+}
+
+.jumbotron {
+  color: #ec5242;
+  background-image: url('assets/img/back-gray.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin-bottom: 0;
+ }
+
+ .jumbotron .hello {
+   margin-top: 60px;
+   font-size: 23px;
+ }
+
+ .jumbotron h1 {
+   font-family: "COCOGOOSE", sans-serif;
+   font-weight: 900;
+   -webkit-background-clip: text;
+   background-clip: text;
+   background-image: url('assets/img/back.jpg');
+   color: transparent;
+ }
+
+.note {
+  margin-top: 40px;
+  border: 2px solid #fff;
+  background-color: #eaeaea;
+  padding: 15px;
+  color: #272a31;
+ }
+
+.time {
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #272a31;
+}
+
+.place {
+  color: #272a31;
+  font-size: 18px;
+}
+
+.program {
+  background-image: url('assets/img/webb-dark.png') ;
+  background-repeat: repeat;
+  min-height: 900px;
+}
+
+.program > .row {
+  margin: 40px auto;
+}
+
+.program-text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.program-detail {
+  background-color: #cacaca;
+  margin-top: 10px;
+  opacity: 80%;
+}
+
+.line {
+  border-top: 3px solid #ec5242;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.program-title {
+  margin: 40px 0;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ec5242;
+}
+
+.container {
+  background-color: #eaeaea;
+}
+
+.row {
+  width: 90%;
+  margin:0 5%;  
+}
+
+
+
