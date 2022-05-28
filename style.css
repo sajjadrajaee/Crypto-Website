@@ -403,6 +403,29 @@
     width: 50%;
     margin: 40px;
   }
+  
+  .pevents {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .pevent {
+    height: 100%;
+    width: 85%;
+    color: var(--color-white);
+    margin: 15px;
+    color: #fff;
+  }
+  
+  .one {
+    background-image: url("assets/img/crypto1.jpg");
+  }
+
+  .two {
+    background-image: url("assets/img/crypto2.jpg");
+  }
 }
 
 /* Desktop versiton */
@@ -677,7 +700,7 @@
   }
 
   .partner-logo {
-    width: 60%;
+    width: 50%;
     margin: 10px;
     margin-left: 40px;
   }
@@ -746,5 +769,31 @@
 
   .white {
     color: #fff;
+  }
+
+  .pevents {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .pevent {
+    height: 100%;
+    width: 85%;
+    color: #fff;
+    margin: 15px;
+  }
+
+  .pevents > li {
+    list-style: none;
+  }
+  
+  .one {
+    background-image: url("assets/img/crypto1.jpg");
+  }
+
+  .two {
+    background-image: url("assets/img/crypto2.jpg");
   }
 }
