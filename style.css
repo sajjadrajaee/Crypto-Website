@@ -389,10 +389,19 @@
     margin-bottom: 0;
   }
 
+  .about-image {
+    width: 80%;
+  }
+
   .email {
     font-size: 17px;
     font-weight: 800;
     color: #272a31;
+  }
+
+  .infobael {
+    width: 50%;
+    margin: 40px;
   }
 }
 
@@ -710,6 +719,10 @@
     font-size: 16px;
     color: #272a31;
     margin-top: 50px;
+  }
+
+  .about-image {
+    width: 80%;
   }
 
   .email {
