@@ -56,8 +56,6 @@ Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-## LOOM VIDEO
-https://www.loom.com/share/3eaa9ed613c84a78bb6adf587cf09fd7
 
 ## 📝 License
 
