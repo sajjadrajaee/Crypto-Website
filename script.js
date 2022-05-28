@@ -15,7 +15,7 @@ document.querySelectorAll('.nav-links').forEach((n) => n.addEventListener('click
 // More button
 const btn = document.querySelector('.btn-more');
 const more = document.querySelector('.more');
-btn.addEventListener('click', ()=> {
+btn.addEventListener('click', () => {
   more.classList.add('active');
   btn.classList.add('hide');
-})
+});
