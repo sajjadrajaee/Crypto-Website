@@ -2,16 +2,15 @@
      #ec5242 red
      #d3d3d3 gray */
 @media screen and (max-width: 768px) {
-
   body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    background-color: #ffffff;
+    background-color: #fff;
     margin: 0;
   }
-  
+
   * {
     padding: 0;
     margin: 0;
@@ -22,21 +21,21 @@
     display: none;
     visibility: hidden;
   }
-  
+
   @font-face {
     font-family: Lato;
     src: url('assets/fonts/Lato-Light.ttf');
   }
-  
+
   li {
     list-style: none;
   }
-  
+
   a {
     color: #fff;
     text-decoration: none;
   }
-  
+
   .main-navbar {
     top: 0;
     left: 0;
@@ -48,27 +47,27 @@
     align-items: center;
     padding: 0 24px;
   }
-  
+
   .main-header {
     position: absolute;
   }
-  
+
   .nav-branding {
     visibility: hidden;
-      float: left;
-      margin: 10px auto 5px 20px;
-      width: 28%;
-      display: none;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
   }
-  
+
   .nav-links {
     transition: 0.7s ease;
   }
-  
+
   .nav-links:hover {
     color: #57000d;
   }
-  
+
   .bar {
     display: block;
     width: 25px;
@@ -78,25 +77,25 @@
     transition: all 0.3s ease-in-out;
     background-color: #272a31;
   }
-  
+
   .hamburger {
     display: block;
   }
-  
+
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
+
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
     background-color: white;
   }
-  
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: white;
   }
-  
+
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -111,18 +110,18 @@
     background-color: #ec5242;
     padding-top: 90px;
   }
-  
+
   .nav-items {
     margin: 40px 28px 0 28px;
     font-size: 32px;
     color: #ec5242;
     list-style: none;
   }
-  
+
   .nav-menu.active {
     left: 0;
   }
-  
+
   .get {
     border: 5px solid #fff;
   }
@@ -133,7 +132,7 @@
     padding-left: 0;
     max-width: 100%;
   }
-  
+
   .jumbotron {
     color: #ec5242;
     background-image: url('assets/img/back-gray.jpg');
@@ -141,105 +140,101 @@
     background-repeat: no-repeat;
     height: 80vh;
     margin-bottom: 0;
-   }
-  
-   .jumbotron .hello {
-     margin-top: 60px;
-     font-size: 23px;
-   }
-  
-   .jumbotron h1 {
-     font-family: "COCOGOOSE", sans-serif;
-     font-weight: 900;
-     -webkit-background-clip: text;
-     background-clip: text;
-     background-image: url('assets/img/back.jpg');
-     color: transparent;
-   }
-  
+  }
+
+  .jumbotron .hello {
+    margin-top: 60px;
+    font-size: 23px;
+  }
+
+  .jumbotron h1 {
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url('assets/img/back.jpg');
+    color: transparent;
+  }
+
   .note {
     margin-top: 40px;
     border: 2px solid #fff;
     background-color: #eaeaea;
     padding: 15px;
     color: #272a31;
-   }
-  
+  }
+
   .time {
     font-family: "COCOGOOSE", sans-serif;
     font-size: 30px;
     font-weight: 800;
     color: #272a31;
   }
-  
+
   .place {
     color: #272a31;
     font-size: 18px;
   }
-  
+
   .program {
-    background-image: url('assets/img/webb-dark.png') ;
+    background-image: url('assets/img/webb-dark.png');
     background-repeat: repeat;
     min-height: 900px;
   }
-  
+
   .program > .row {
     margin: 40px auto;
   }
-  
+
   .program-text {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
     padding-top: 20px;
   }
-  
+
   .program-detail {
     background-color: #cacaca;
     margin-top: 10px;
     opacity: 80%;
   }
-  
+
   .line {
     border-top: 3px solid #ec5242;
     width: 60px;
     margin: 0 auto;
   }
-  
+
   .icon {
     width: 40px;
     height: 40px;
     margin-top: 40px;
   }
-  
+
   .program-title {
     margin: 40px 0;
     font-size: 20px;
     font-weight: 900;
     color: #ec5242;
   }
-  
+
   .whole {
     display: none;
     visibility: hidden;
   }
-  
+
   .join {
     color: #fff;
     background-color: #ec5242;
     font-size: 18px;
     margin: 20px 0;
-    padding: 15px
+    padding: 15px;
   }
-  .row {
-    width: 90%;
-    margin:0 5%;  
-  }
-  
-  .member-row{
+
+  .member-row {
     margin-top: 40px;
   }
-  
+
   .teachers {
     margin: 30px 20px;
   }
@@ -247,22 +242,27 @@
   .teachers > .container {
     max-width: 100%;
   }
-  
+
   .teacher-text {
     color: #272a31;
     font-weight: bold;
     font-size: 20px;
     padding-top: 20px;
   }
-  
+
+  .hide {
+    display: none;
+    visibility: hidden;
+  }
+
   .back-logo {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
-  
+
   .member-photo {
     position: absolute;
     top: 20px;
@@ -270,19 +270,15 @@
     width: 105px;
     height: 112px;
   }
-  .back-logo {
-    width: 60px;
-    height: 60px;
-  }
-  
+
   .teacher-name {
-    font-family: 'COCOGOOSE' , sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #272a31;
-    margin:10px 0 0 0;
+    margin: 10px 0 0 0;
   }
-  
+
   .teacher-position {
     color: #ec5242;
     font-style: italic;
@@ -291,29 +287,29 @@
     margin: 0;
     line-height: 1.3;
   }
-  
+
   .small-hr {
     border-top: 1px solid #272a31;
     width: 20px;
     margin-top: 5px;
   }
-  
+
   .teacher-detail {
     line-height: 1.3;
     font-size: 12px;
   }
-  
-  .btn-more{
+
+  .btn-more {
     width: 100%;
     background-color: #fff;
     border: 1px solid #272a31;
   }
-  
+
   .btn-more .hide {
     display: none;
     visibility: hidden;
   }
-  
+
   .arrow {
     border: solid #406d98;
     border-width: 0 2px 2px 0;
@@ -323,45 +319,40 @@
     margin-bottom: 3px;
     margin-left: 4px;
   }
-  
+
   .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
-  
+
   .more {
     visibility: hidden;
     display: none;
   }
-  
+
   .active {
     visibility: visible;
     display: flex;
   }
-  
-  .hide {
-    display: none;
-    visibility: hidden;
-  }
-  
+
   .Partners {
     padding-bottom: 40px;
     background-color: #5b5b5b;
   }
-  
+
   .partner-logo {
     width: 100%;
   }
-  
+
   .footer-logo {
     width: 100px;
     height: 100px;
-    direction:rtl;
+    direction: rtl;
     align-content: center;
     text-align: center;
     margin: 30px 0 0 50px;
   }
-  
+
   .copyright {
     font-weight: bold;
     margin-top: 20px;
@@ -381,24 +372,23 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-   }
+  }
 
-   .please {
-     font-size: 16px;
-     color: #272a31;
-     margin-top: 20px;
-     margin-bottom: 0;
-   }
+  .please {
+    font-size: 16px;
+    color: #272a31;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
 
-   .email {
-     font-size: 17px;
-     font-weight: 800;
-     color: #272a31;
-   }
-
+  .email {
+    font-size: 17px;
+    font-weight: 800;
+    color: #272a31;
+  }
 }
 
-  /* Desktop versiton */
+/* Desktop versiton */
 @media screen and (min-width: 768px) {
   .nav-link {
     color: #fff;
@@ -407,6 +397,7 @@
   .nav-item {
     color: #fff;
   }
+
   .container-bg {
     background-color: #272a31;
   }
@@ -432,7 +423,7 @@
   .nav-items {
     padding: 20px 20px;
     font-size: 18px;
-    float:right;
+    float: right;
     list-style: none;
   }
 
@@ -450,7 +441,7 @@
     padding: 8px;
   }
 
-  .head{
+  .head {
     background-color: #e9ecef;
     background-image: url('assets/img/back-gray.jpg');
     background-repeat: no-repeat;
@@ -458,67 +449,67 @@
 
   .jumbotron {
     color: #ec5242;
+    background: transparent;
     background-color: none;
     background-size: cover;
-    background: transparent;
     height: 80vh;
     margin-bottom: 0;
-   }
-  
-   .jumbotron .hello {
-     margin-top: 60px;
-     font-size: 23px;
-   }
-  
-   .jumbotron h1 {
-     font-family: "COCOGOOSE", sans-serif;
-     font-weight: 900;
-     -webkit-background-clip: text;
-     background-clip: text;
-     background-image: url('assets/img/back.jpg');
-     color: transparent;
-   }
+  }
 
-   .note {
+  .jumbotron .hello {
+    margin-top: 60px;
+    font-size: 23px;
+  }
+
+  .jumbotron h1 {
+    font-family: "COCOGOOSE", sans-serif;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url('assets/img/back.jpg');
+    color: transparent;
+  }
+
+  .note {
     margin-top: 40px;
     border: 2px solid #fff;
     background-color: #eaeaea;
     padding: 15px;
     color: #272a31;
     width: 50%;
-   }
-  
+  }
+
   .time {
     font-family: "COCOGOOSE", sans-serif;
     font-size: 30px;
     font-weight: 800;
     color: #272a31;
   }
-  
+
   .place {
     color: #272a31;
     font-size: 18px;
   }
-  
+
   /* Program section */
 
   .program {
-    background-image: url('assets/img/webb-dark.png') ;
+    background-image: url('assets/img/webb-dark.png');
     background-repeat: repeat;
     padding-bottom: 40px;
   }
-  
+
   .program > .row {
     margin: 40px auto;
   }
-  
+
   .program-text {
     color: #fff;
     font-weight: bold;
     font-size: 20px;
     padding-top: 20px;
   }
-  
+
   .program-detail {
     background-color: #cacaca;
     margin-top: 10px;
@@ -526,23 +517,22 @@
     opacity: 80%;
   }
 
-
   .program-detail:hover {
     outline: #fff 5px solid;
   }
-  
+
   .line {
     border-top: 3px solid #ec5242;
     width: 60px;
     margin: 0 auto;
   }
-  
+
   .icon {
     width: 40px;
     height: 40px;
     margin-top: 40px;
   }
-  
+
   .program-title {
     margin: 10px 0;
     font-size: 20px;
@@ -598,21 +588,21 @@
   }
 
   /* Teacher section */
-  .member-row{
+  .member-row {
     margin-top: 40px;
   }
-  
+
   .teachers {
     margin: 30px 20px;
   }
-  
+
   .teacher-text {
     color: #272a31;
     font-weight: bold;
     font-size: 20px;
     padding-top: 20px;
   }
-  
+
   .back-logo {
     position: absolute;
     top: 0;
@@ -620,7 +610,7 @@
     width: 60px;
     height: 60px;
   }
-  
+
   .member-photo {
     position: absolute;
     top: 20px;
@@ -629,15 +619,14 @@
     height: 112px;
   }
 
-  
   .teacher-name {
-    font-family: 'COCOGOOSE' , sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #272a31;
-    margin:10px 0 0 0;
+    margin: 10px 0 0 0;
   }
-  
+
   .teacher-position {
     color: #ec5242;
     font-style: italic;
@@ -646,13 +635,13 @@
     margin: 0;
     line-height: 1.3;
   }
-  
+
   .small-hr {
     border-top: 1px solid #272a31;
     width: 20px;
     margin-top: 5px;
   }
-  
+
   .teacher-detail {
     line-height: 1.3;
     font-size: 12px;
@@ -667,22 +656,22 @@
     padding-bottom: 40px;
     background-color: #5b5b5b;
   }
-  
+
   .partner-logo {
     width: 60%;
     margin: 10px;
     margin-left: 40px;
   }
-  
+
   .footer-logo {
     width: 100px;
     height: 100px;
-    direction:rtl;
+    direction: rtl;
     align-content: center;
     text-align: center;
     margin: 30px 0 0 50px;
   }
-  
+
   .copyright {
     font-weight: bold;
     margin-top: 20px;
@@ -700,36 +689,34 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-   }
+  }
 
-   .please {
-     font-size: 16px;
-     color: #272a31;
-     margin-top: 50px;
-   }
+  .please {
+    font-size: 16px;
+    color: #272a31;
+    margin-top: 50px;
+  }
 
-   .email {
-     font-size: 17px;
-     font-weight: 800;
-     color: #272a31;
-   }
+  .email {
+    font-size: 17px;
+    font-weight: 800;
+    color: #272a31;
+  }
 
-   .intro-titel {
-     margin-top: 30px;
-   }
+  .intro-titel {
+    margin-top: 30px;
+  }
 
-   .infobael {
-     width: 50%;
-     margin: 40px;
-   }
+  .infobael {
+    width: 50%;
+    margin: 40px;
+  }
 
-   .dark {
-     background-color: #272a31;
-   }
+  .dark {
+    background-color: #272a31;
+  }
 
-   .white {
-     color: #fff;
-   }
-
+  .white {
+    color: #fff;
+  }
 }
-
