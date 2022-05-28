@@ -359,6 +359,7 @@
     align-content: center;
     text-align: center;
     margin: 30px 0 0 50px;
+    float:right;
   }
 
   .copyright {
@@ -426,12 +427,63 @@
   .two {
     background-image: url("assets/img/crypto2.jpg");
   }
+
+  .speaker-img-container {
+    position: relative;
+    width: 37vw;
+    height: 25vw;
+  }
+
+  .brain {
+    width: 15vw;
+    position: absolute;
+    top: 2vw;
+  }
+
+  .speaker-img {
+    width: 100px;
+  }
+
+  .speaker-content {
+    width: 60vw;
+  }
+
+  .speaker-subheading {
+    margin: 0 0 4vw 0;
+    font-size: 3vw;
+    color: #ec5242;
+  }
 }
 
 /* Desktop versiton */
 @media screen and (min-width: 768px) {
+
+  .speaker-img-container {
+    position: relative;
+    width: 37vw;
+    height: 25vw;
+  }
+
+  .brain {
+    width: 80px;
+    top: 0;
+  }
+
+  .speaker-img {
+    width: 100px;
+  }
+
   .nav-link {
     color: #fff;
+  }
+
+  .speaker-content {
+    width: 200px;
+  }
+
+  .speaker-subheading {
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
   }
 
   .nav-item {
@@ -712,6 +764,7 @@
     align-content: center;
     text-align: center;
     margin: 30px 0 0 50px;
+    float:right;
   }
 
   .copyright {
