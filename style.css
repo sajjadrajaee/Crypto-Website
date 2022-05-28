@@ -150,12 +150,14 @@
 
   .jumbotron .hello {
     margin-top: 60px;
-    font-size: 23px;
+    font-size: 30px;
+    font-weight: 600;
   }
 
   .jumbotron h1 {
     font-family: "COCOGOOSE", sans-serif;
     font-weight: 900;
+    font-size: 45px;
     -webkit-background-clip: text;
     background-clip: text;
     background-image: url('assets/img/back.jpg');
@@ -464,12 +466,14 @@
 
   .jumbotron .hello {
     margin-top: 60px;
-    font-size: 23px;
+    font-size: 38px;
+    font-weight: 600;
   }
 
   .jumbotron h1 {
     font-family: "COCOGOOSE", sans-serif;
     font-weight: 900;
+    font-size: 60px;
     -webkit-background-clip: text;
     background-clip: text;
     background-image: url('assets/img/back.jpg');
